@@ -15,7 +15,7 @@ const HeaderBanner = () => {
             <h2 className="banner-welcome__h2">Amaryllis Pittin, développeuse web.</h2>
             <h2 className="banner-welcome__h2">Bienvenue sur mon portfolio !</h2>
             <div className="banner-welcome__buttons">
-                <a href="futur_lien" className="github-btn">
+                <a href="https://github.com/AmaryllisPittin" target="blank" className="github-btn">
                     <img src={GitHubLogo} className="github-btn__logo" alt="logo GitHub" />
                         Mon GitHub
                 </a>

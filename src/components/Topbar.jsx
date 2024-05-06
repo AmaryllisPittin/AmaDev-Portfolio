@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Topbar = () => {
   return (
-    <div className="topbar">
-        <ul className="topbar__container">
+    <div>
+        <ul className="topbar">
             <li>
                 <NavLink className="topbar-link" to="">Accueil</NavLink>
             </li>

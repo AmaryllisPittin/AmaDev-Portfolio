@@ -1,0 +1,47 @@
+/*********DISPLAY VALUES*****************/
+
+$center-value: center;
+
+@mixin flex-and-row {
+    display:flex;
+    flex-direction:row;
+}
+
+@mixin flex-and-column {
+    display:flex;
+    flex-direction:column;
+}
+
+/********DISPLAY************************/
+
+.topbar,
+.banner-title,
+.banner-welcome__buttons,
+.github-btn,
+.contact-btn {
+    @include flex-and-row;
+}
+
+.banner-welcome {
+    @include flex-and-column;
+}
+
+/***************************************/
+
+.topbar {
+    justify-content: space-around;
+    position: fixed;
+}
+
+.banner-title,
+.banner-welcome,
+.github-btn,
+.contact-btn {
+    align-items: $center-value;
+}
+
+.banner-title,
+.github-btn,
+.contact-btn {
+    justify-content: $center-value;
+}
