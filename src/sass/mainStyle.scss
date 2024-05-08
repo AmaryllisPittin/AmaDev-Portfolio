@@ -1,3 +1,8 @@
+/******************RESPONSIVE VALUES*********************/
+
+$tablet-breakpoint: 1024px;
+$mobile-breakpoint: 768px;
+
 /********************COLOR VALUES************************/
 $main-color: rgb(17,17,17);
 $second-color: rgb(243,191,255);
@@ -8,7 +13,8 @@ $second-color: rgb(243,191,255);
 }
 /****COLORS AND BACKGROUND APPLICATIONS********************/
 
-.topbar {
+.topbar-container,
+.about {
     background-color: $main-color;
 }
 
@@ -21,7 +27,9 @@ $second-color: rgb(243,191,255);
     color: $main-color;
 }
 
-.topbar-link {
+.topbar-link,
+.about__h2,
+.about__p {
     color:$second-color;
 }
 
@@ -36,10 +44,22 @@ $second-color: rgb(243,191,255);
 h1 {
     font-size:120px;
     font-weight:bold;
+    @media all and (max-width: $tablet-breakpoint) {
+        font-size:100px;
+    }
+    @media all and (max-width: $mobile-breakpoint) {
+        font-size:3em;
+    }
 }
 
 h2 {
     font-size:40px;
+    @media all and (max-width: $tablet-breakpoint) {
+        font-size:30px;
+    }
+    @media all and (max-width: $mobile-breakpoint) {
+        font-size:20px;
+    }
 }
 
 .topbar-link,
@@ -52,67 +72,37 @@ h2 {
 .contact-btn {
     font-size:18px;
     font-weight:600;
+    @media all and (max-width: $mobile-breakpoint) {
+        font-size:15px;
+    }
+}
+
+.topbar {
+    list-style-type:none;
+}
+
+.about__p {
+    text-align: justify;
 }
 
 /*****************************************************************/
 
 * {
-    margin:0;
     box-sizing:content-box;
 }
 
-.topbar {
-    width:100%;
-    list-style-type:none;
-    padding-left:0;
-    padding-top:20px;
-    padding-bottom:20px;
+.topbar-container {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
 }
 
-.banner {
-    width:100%;
-    height:911px;
-}
-
-.banner-title {
-    padding-top:15%;
-    &__h1 {
-        padding-right:3%;
-    }
-    &__logo {
-        width:270px;
-        height:270px;
-        border-radius:50%;
-        z-index:10;
+.banner-title__logo {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
-}
-
-.banner-welcome {
-    margin-top:5%;
-    &__buttons {
-        margin-top:25px;
-    }
-}
-
-.github-btn {
-    &__logo {
-        width:30px;
-        padding-right:5px;
-    }
-}
 
 .github-btn,
 .contact-btn {
-    background:transparent;
+    background: transparent;
     border: solid 2px rgb(17, 17, 17);
-    border-radius:5px;
-    width:170px;
-    height:40px;
-    margin-right:15px;
+    transition: color 0.3s, background-color 0.3s;
+    position:relative;
 }

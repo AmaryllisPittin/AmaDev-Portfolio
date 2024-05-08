@@ -9,7 +9,7 @@ const HeaderBanner = () => {
     <header className="banner">
         <div className="banner-title">
             <h1 className="banner-title__h1">Ama Dev</h1>
-            <img className="banner-title__logo" src={OrdiImg} alt="computer" />
+            <img className="banner-title__logo" src={OrdiImg} alt="logo AmaDev" />
         </div>
         <div className="banner-welcome">
             <h2 className="banner-welcome__h2">Amaryllis Pittin, développeuse web.</h2>

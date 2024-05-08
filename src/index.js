@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './sass/mainStyle.scss';
 import './sass/merging.scss';
+import './sass/dimensions-spacing.scss';
+import './sass/animations.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

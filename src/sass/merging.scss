@@ -1,3 +1,8 @@
+/******************RESPONSIVE VALUES*********************/
+
+$tablet-breakpoint: 1024px;
+$mobile-breakpoint: 768px;
+
 /*********DISPLAY VALUES*****************/
 
 $center-value: center;
@@ -22,26 +27,41 @@ $center-value: center;
     @include flex-and-row;
 }
 
-.banner-welcome {
+.banner-welcome,
+.about {
     @include flex-and-column;
+}
+
+.topbar-container {
+    @include flex-and-row;
+    @media all and (max-width: $mobile-breakpoint) {
+        @include flex-and-column;   
+    }
 }
 
 /***************************************/
 
+.topbar-container {
+    position: fixed;
+    flex-wrap:wrap;
+}
+
 .topbar {
     justify-content: space-around;
-    position: fixed;
+    flex-grow:1;
 }
 
 .banner-title,
 .banner-welcome,
 .github-btn,
-.contact-btn {
+.contact-btn,
+.about {
     align-items: $center-value;
 }
 
 .banner-title,
 .github-btn,
-.contact-btn {
+.contact-btn,
+.about {
     justify-content: $center-value;
 }

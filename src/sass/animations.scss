@@ -1,0 +1,17 @@
+.github-btn::before,
+contact-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to right, 33deg, rgba(109,23,144,1) 0%, rgba(229,102,230,1) 42%, rgba(243,191,255,1) 88%);
+    transition: width 0.5s ease-out;
+}
+
+.github-btn:hover::before,
+.contact-btn:hover::before {
+    width: 100%;
+}
+
