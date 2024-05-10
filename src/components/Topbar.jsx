@@ -6,13 +6,13 @@ const Topbar = () => {
           <div className="topbar-container">
             <ul className="topbar">
               <li>
-                <NavLink className="topbar-link" to="/">Accueil</NavLink>
+                <a className="topbar-link" href="#headerBanner">Accueil</a>
               </li>
               <li>
-                <NavLink className="topbar-link" to="/presentation">Présentation</NavLink>
+              <a className="topbar-link" href="#about">Présentation</a>
               </li>
               <li>
-                <NavLink className="topbar-link" to="/services">Services</NavLink>
+                <a className="topbar-link" href="#services">Services</a>
               </li>
               <li>
                 <NavLink className="topbar-link" to="/realisations">Réalisations</NavLink>

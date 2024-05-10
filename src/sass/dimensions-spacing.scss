@@ -93,13 +93,66 @@ $mobile-breakpoint: 768px;
 }
 
 .about {
-    height:300px;
+    height:900px;
     width:100%;
     &__h2 {
         padding-bottom:50px;
     }
     &__p {
         width:50%;
+        margin-bottom:15px;
+        @media all and (max-width: $mobile-breakpoint) {
+            height:900px;
+            width:70%;
+        }
+    }
+    &__contact-me {
+        width:50%;
+        margin-top:20px;
     }
 }
 
+.services {
+    height:700px;
+    width:85%;
+    padding-left:7.5%;
+    padding-right:7.5%;
+    @media all and (max-width: $tablet-breakpoint) {
+        height:1200px;
+    }
+    &__h2 {
+        margin-top:50px;
+    }
+}
+
+.services-container {
+    margin-top:120px;
+    width:100%;
+}
+
+.service-card {
+    width:25%;
+    height:370px;
+    border-radius: 15px;
+    padding:15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    @media all and (max-width: $tablet-breakpoint) {
+        width:55%;   
+    }
+    @media all and (max-width: $tablet-breakpoint) {
+        width:85%;
+        margin-left:7.5%;
+        margin-right:7.5%;
+    }
+    &__logo {
+        width:37%;
+        margin-top:25px;
+    }
+    &__h3 {
+        margin: 15px 15px 20px 15px;
+    }
+    &__p {
+        /*margin: 15px 15px 20px 15px;*/
+        width:90%;
+    }
+}

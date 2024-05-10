@@ -28,13 +28,23 @@ $center-value: center;
 }
 
 .banner-welcome,
-.about {
+.about,
+.services,
+.service-card,
+.realisations {
     @include flex-and-column;
 }
 
 .topbar-container {
     @include flex-and-row;
     @media all and (max-width: $mobile-breakpoint) {
+        @include flex-and-column;   
+    }
+}
+
+.services-container {
+    @include flex-and-row;
+    @media all and (max-width: $tablet-breakpoint) {
         @include flex-and-column;   
     }
 }
@@ -55,7 +65,10 @@ $center-value: center;
 .banner-welcome,
 .github-btn,
 .contact-btn,
-.about {
+.about,
+.services,
+.service-card,
+.realisations {
     align-items: $center-value;
 }
 
@@ -64,4 +77,22 @@ $center-value: center;
 .contact-btn,
 .about {
     justify-content: $center-value;
+}
+
+.about__contact-me {
+    text-align: left;
+}
+
+.service-card {
+    text-align: center;
+    @media all and (max-width: $tablet-breakpoint) {
+        width:55%;
+        margin-left:22.5%;
+        margin-right:22.5%;
+        margin-bottom:50px;   
+    }
+}
+
+.services-container {
+    justify-content: space-around;
 }

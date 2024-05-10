@@ -4,9 +4,8 @@ import GitHubLogo from "../img/logoGit.png";
 
 
 const HeaderBanner = () => {
-    console.log('Index est bien appelé')
   return (
-    <header className="banner">
+    <header className="banner" id="headerBanner">
         <div className="banner-title">
             <h1 className="banner-title__h1">Ama Dev</h1>
             <img className="banner-title__logo" src={OrdiImg} alt="logo AmaDev" />

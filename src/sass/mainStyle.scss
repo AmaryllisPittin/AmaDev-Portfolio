@@ -14,11 +14,13 @@ $second-color: rgb(243,191,255);
 /****COLORS AND BACKGROUND APPLICATIONS********************/
 
 .topbar-container,
-.about {
+.about,
+.realisations {
     background-color: $main-color;
 }
 
-.banner{
+.banner,
+.services {
     @include main-linear-gradient;
 }
 
@@ -29,7 +31,9 @@ $second-color: rgb(243,191,255);
 
 .topbar-link,
 .about__h2,
-.about__p {
+.about__contact-me,
+.about__p,
+.realisations__h2 {
     color:$second-color;
 }
 
@@ -59,6 +63,31 @@ h2 {
     }
     @media all and (max-width: $mobile-breakpoint) {
         font-size:20px;
+    }
+}
+
+h3 {
+    font-size:32px;
+    @media all and (max-width: $tablet-breakpoint) {
+        font-size:27px;
+    }
+}
+
+.service-card__h3 {
+    font-size:22px;
+}
+
+.about__p {
+    @media all and (max-width: $tablet-breakpoint) {
+        font-size:15px;
+    }
+}
+
+.about__contact-me {
+    font-size:24px;
+    font-weight:lighter;
+    @media all and (max-width: $tablet-breakpoint) {
+        font-size:18px;
     }
 }
 

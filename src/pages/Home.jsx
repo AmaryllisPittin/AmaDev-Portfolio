@@ -1,6 +1,8 @@
 import React from "react";
 import HeaderBanner from "../components/HeaderBanner";
 import About from "../components/About";
+import Services from "../components/Services";
+import Realisations from "../components/Realisations";
 
 
 const Index = () => {
@@ -8,6 +10,8 @@ const Index = () => {
     <div>
         <HeaderBanner />
         <About />
+        <Services />
+        <Realisations />
     </div>
   );
 };
