@@ -23,7 +23,11 @@ $center-value: center;
 .banner-title,
 .banner-welcome__buttons,
 .github-btn,
-.contact-btn {
+.contact-btn,
+.description-start-left,
+.description-start-right,
+.realisation-tags,
+.language-container {
     @include flex-and-row;
 }
 
@@ -31,7 +35,12 @@ $center-value: center;
 .about,
 .services,
 .service-card,
-.realisations {
+.realisations,
+.competences {
+    @include flex-and-column;
+}
+
+.realisation-container {
     @include flex-and-column;
 }
 
@@ -68,14 +77,20 @@ $center-value: center;
 .about,
 .services,
 .service-card,
-.realisations {
+.realisations,
+.realisation-container,
+.description-start-left,
+.description-start-right,
+.competences {
     align-items: $center-value;
 }
 
 .banner-title,
 .github-btn,
 .contact-btn,
-.about {
+.about,
+.description-start-left,
+.description-start-right {
     justify-content: $center-value;
 }
 
@@ -96,3 +111,38 @@ $center-value: center;
 .services-container {
     justify-content: space-around;
 }
+
+.card-container {
+    display:grid;
+    grid-template-rows:repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    @media (max-width: $tablet-breakpoint) {
+        @include flex-and-column;
+    }
+}
+
+.card-container a {
+    z-index:3;
+}
+
+.card {
+    display:flex;
+    align-items:flex-end;
+    background-size: cover;
+    background-position:$center-value;
+    position:relative;
+}
+
+.card::before {
+    position:absolute;
+}
+
+.card,
+.card__h2 {
+    z-index: 2;
+}
+
+.card::before {
+    z-index: 1;
+}
+

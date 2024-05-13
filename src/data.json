@@ -1,0 +1,35 @@
+[
+    {
+        "id": "598a5d8a-e2ae-4acf-801f-82a497a9cf0d",
+        "title": "Kasa - site de logements",
+        "cover": "https://dl.dropboxusercontent.com/scl/fi/qyjv22fyrwhr4m11nqfr9/M_Fiche-Logement.webp?rlkey=t8acqk57ev07cnous7q71oasc&st=uqdqx04a&dl=0",
+        "picture1":"https://dl.dropboxusercontent.com/scl/fi/atmxr6x6xjj5o3mnr2erp/kasa.webp?rlkey=nzsoctokyl6zl6mxuvw6yduua&st=pg5mfeg5&dl=0",
+        "picture2":"https://dl.dropboxusercontent.com/scl/fi/gxc6nja5feybz2sf7j0f1/kasa2.webp?rlkey=h2pieqzq9wstb2gtn93iaxbd5&st=45gvr6ip&dl=0",
+        "picture3":"https://dl.dropboxusercontent.com/scl/fi/3i3gi7ind4nlv7hq6f768/datakasa.webp?rlkey=bpmj74f5qfes1cmsjeyiy038l&st=hgeda6vj&dl=0",
+
+        "description1": "J'ai réalisé le site web de Kasa dans le cadre de ma formation OpenClassRooms, afin de comprendre le fonctionnement de React et React Router pour créer une expérience utilisateur moderne et réactive. Il s'agit d'une application de location immobilière, présentant les 20 dernières annonces de logements ainsi qu'une page 'A propos' pour renseigner les visiteurs sur le fonctionnement de l'organisme. J'ai réalisé la refonte totale du site à partir de React, React Router, Sass pour les animations et le style, ainsi que Json pour les données en Back-end.",
+        "description2": "J'ai suivi pour le design les maquettes Figma fournies, autant pour le format desktop que mobile. L'entièreté du site est abordable sur tous les formats d'écrans, en sachant que de plus en plus d'utilisateurs visitent des sites web depuis leur portable. D'autre part, pour le contenu de ce projet, l'utilisateur de React Router a été indispensable pour l'accès vers chaque logement présenté sur la page.",
+        "description3": "Le but de React Router est de transformer l'application en Single Page, ce qui signifie que le site et son contenu entier sont accessibles sur une seule page plutôt que plusieurs. L'avantage de ne pas à avoir à charger une nouvelle page selon l'action de l'utilisateur, de réduire la quantité de données à télécharger par l'utilisateur et donc de fluidifier son expérience ne sont pas à négliger. De plus, il est possible avec React Router de configurer les chemins d'URL pour les utilisateurs, et ce de plusieurs façons.",
+        "tags": [
+            "Projet OpenClassRooms",
+            "React",
+            "Sass"
+        ]
+    },
+    {
+        "id": "8a4fb6d0-34fe-4b67-af61-0675bfd3fd0a",
+        "title": "Ohmyfood - site de restauration",
+        "cover": "https://dl.dropboxusercontent.com/scl/fi/4x3qr8sajfxcagtdjn8a6/ohmyfoodCover.webp?rlkey=3ul8lkojnoene5efen1fplvz0&st=28n9hclv&dl=0",
+        "picture1":"https://dl.dropboxusercontent.com/scl/fi/atmxr6x6xjj5o3mnr2erp/kasa.webp?rlkey=nzsoctokyl6zl6mxuvw6yduua&st=pg5mfeg5&dl=0",
+        "picture2":"https://dl.dropboxusercontent.com/scl/fi/gxc6nja5feybz2sf7j0f1/kasa2.webp?rlkey=h2pieqzq9wstb2gtn93iaxbd5&st=45gvr6ip&dl=0",
+        "picture3":"https://dl.dropboxusercontent.com/scl/fi/3i3gi7ind4nlv7hq6f768/datakasa.webp?rlkey=bpmj74f5qfes1cmsjeyiy038l&st=hgeda6vj&dl=0",
+
+        "description1": "Ce projet, compris dans le parcours d'Intégrateur Web d'OpenClassRooms, a été pour moi un moyen de m'initier à Sass et au fonctionnement des animations. Il s'agit d'une application, en mobile-friendly, permettant aux utilisateurs de passer commande à distance auprès de restaurants gastronomiques. Le design a été conçu sur Figma, mais j'avais le choix du style des animations pourvu que le style corresponde à l'esthétique globale.",
+        "description2": "Le travail sur ce site consistait à utiliser Html et Sass pour avoir un résultat responsive en partant d'une taille d'écran mobile (plus pratique pour les utilisateurs dans ce contexte), ainsi que des animations propres et designs pour chaque action des visiteurs.",
+        "description3": "Si le Css me plaisait déjà beaucoup, j'ai vite compris que Sass allait m'amener à un autre niveau, celui de l'organisation structurée de mes fichiers de style ainsi qu'une grande possibilité d'animations qui rendent un site plus agréable et dynamique.",
+        "tags": [
+            "Projet OpenClassRooms",
+            "Sass"
+        ]
+    }
+]

@@ -6,7 +6,7 @@ const Topbar = () => {
           <div className="topbar-container">
             <ul className="topbar">
               <li>
-                <a className="topbar-link" href="#headerBanner">Accueil</a>
+                <NavLink className="topbar-link" to="/">Accueil</NavLink>
               </li>
               <li>
               <a className="topbar-link" href="#about">Présentation</a>
