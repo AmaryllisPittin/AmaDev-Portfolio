@@ -27,7 +27,9 @@ $center-value: center;
 .description-start-left,
 .description-start-right,
 .realisation-tags,
-.language-container {
+.language__container,
+.outils__container,
+.footer-form__input-select {
     @include flex-and-row;
 }
 
@@ -36,7 +38,11 @@ $center-value: center;
 .services,
 .service-card,
 .realisations,
-.competences {
+.competences,
+.logo-container,
+.formation,
+.footer,
+.footer-form {
     @include flex-and-column;
 }
 
@@ -70,6 +76,10 @@ $center-value: center;
     flex-grow:1;
 }
 
+.logo-container {
+    justify-content: space-around;
+}
+
 .banner-title,
 .banner-welcome,
 .github-btn,
@@ -81,7 +91,11 @@ $center-value: center;
 .realisation-container,
 .description-start-left,
 .description-start-right,
-.competences {
+.competences,
+.logo-container,
+.formation,
+.footer,
+.footer-form {
     align-items: $center-value;
 }
 
@@ -90,7 +104,9 @@ $center-value: center;
 .contact-btn,
 .about,
 .description-start-left,
-.description-start-right {
+.description-start-right,
+.footer,
+.footer-form {
     justify-content: $center-value;
 }
 
@@ -145,4 +161,3 @@ $center-value: center;
 .card::before {
     z-index: 1;
 }
-

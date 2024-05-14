@@ -4,6 +4,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Realisations from "../components/Realisations";
 import Competences from "../components/Competences";
+import Formation from '../components/Formation';
 
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
         <Services />
         <Realisations />
         <Competences />
+        <Formation />
     </div>
   );
 };

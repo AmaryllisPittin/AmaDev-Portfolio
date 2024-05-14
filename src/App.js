@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import dataTab from "./data.json";
 import PageRealisation from "./pages/PageRealisation";
 import NotFound from "./pages/NotFound";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<Navigate replace to="/404" />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

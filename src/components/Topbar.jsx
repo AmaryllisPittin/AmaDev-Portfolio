@@ -21,7 +21,7 @@ const Topbar = () => {
                 <NavLink className="topbar-link" to="/competences">Compétences</NavLink>
               </li>
               <li>
-                <NavLink className="topbar-link" to="/formation-cv">Formation et CV</NavLink>
+                <NavLink className="topbar-link" to="/formations-cv">Formations et CV</NavLink>
               </li>
               <li>
                 <NavLink className="topbar-link" to="/contact">Contact</NavLink>
