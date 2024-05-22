@@ -1,34 +1,35 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Topbar = () => {
   return (
-          <div className="topbar-container">
-            <ul className="topbar">
-              <li>
-                <NavLink className="topbar-link" to="/">Accueil</NavLink>
-              </li>
-              <li>
-              <a className="topbar-link" href="#about">Présentation</a>
-              </li>
-              <li>
-                <a className="topbar-link" href="#services">Services</a>
-              </li>
-              <li>
-                <NavLink className="topbar-link" to="/realisations">Réalisations</NavLink>
-              </li>
-              <li>
-                <NavLink className="topbar-link" to="/competences">Compétences</NavLink>
-              </li>
-              <li>
-                <NavLink className="topbar-link" to="/formations-cv">Formations et CV</NavLink>
-              </li>
-              <li>
-                <NavLink className="topbar-link" to="/contact">Contact</NavLink>
-              </li>
-            </ul>
-          </div>
-        );
-      };
+    <div className="topbar-container">
+      <ul className="topbar">
+        <li>
+          <Link className="topbar-link" smooth to="/#headerBanner">Accueil</Link>
+        </li>
+        <li>
+          <Link className="topbar-link" smooth to="/#about">Présentation</Link>
+        </li>
+        <li>
+          <Link className="topbar-link" smooth to="/#services">Services</Link>
+        </li>
+        <li>
+          <Link className="topbar-link" smooth to="/#realisations">Réalisations</Link>
+        </li>
+        <li>
+          <Link className="topbar-link" smooth to="/#competences">Compétences</Link>
+        </li>
+        <li>
+          <Link className="topbar-link" smooth to="/#formation">Formations et CV</Link>
+        </li>
+        <li>
+          <Link className="topbar-link" smooth to="/#contact">Contact</Link>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
 export default Topbar;
+

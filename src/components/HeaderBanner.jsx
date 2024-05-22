@@ -1,6 +1,7 @@
 import React from "react";
 import OrdiImg from "../img/logo2.png";
 import GitHubLogo from "../img/logoGit.png";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const HeaderBanner = () => {
@@ -18,9 +19,9 @@ const HeaderBanner = () => {
                     <img src={GitHubLogo} className="github-btn__logo" alt="logo GitHub" />
                         Mon GitHub
                 </a>
-            <button type="button" className="contact-btn">
-                Me contacter
-            </button>
+                <Link className="contact-btn" smooth to="/#contact">
+                    Me contacter
+                </Link>
         </div>
 
         </div>

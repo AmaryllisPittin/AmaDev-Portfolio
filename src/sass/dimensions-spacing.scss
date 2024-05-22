@@ -65,6 +65,7 @@ $mobile-breakpoint: 768px;
 }
 
 .github-btn {
+    padding-top:2px;
     &__logo {
         width:30px;
         padding-right:5px;
@@ -90,6 +91,10 @@ $mobile-breakpoint: 768px;
     @media all and (max-width: $mobile-breakpoint) {
         width:100px;
     }
+}
+
+.contact-btn {
+    height:42px;
 }
 
 .about,

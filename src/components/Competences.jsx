@@ -11,7 +11,7 @@ import vscodeLogo from '../img/vscode.png';
 
 const Competences = () => {
     return ( 
-        <section className="competences">
+        <section className="competences" id="competences">
             <h2 className="competences__h2">Mes compétences</h2>
             <div className="languages">
                 <h3 className="languages__h3">Mes languages</h3>
