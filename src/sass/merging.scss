@@ -74,6 +74,9 @@ $center-value: center;
 .topbar {
     justify-content: space-around;
     flex-grow:1;
+    @media (max-width: 768px) {
+        justify-content: space-between;
+    }
 }
 
 .logo-container {

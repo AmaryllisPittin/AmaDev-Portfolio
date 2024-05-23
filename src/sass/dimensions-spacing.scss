@@ -104,8 +104,12 @@ $mobile-breakpoint: 768px;
 .formation {
     height:900px;
     width:100%;
+    @media all and (max-width: $mobile-breakpoint) {
+        height:1400px;
+    }
     &__h2 {
         padding-bottom:50px;
+        padding-top:70px;
     }
     &__p {
         width:50%;
@@ -118,7 +122,16 @@ $mobile-breakpoint: 768px;
     &__contact-me {
         width:50%;
         margin-top:20px;
+        padding-bottom:70px;
+        @media all and (max-width: $mobile-breakpoint) {
+            width:70%;
+            margin-top:0;
+        }
     }
+}
+
+.about__p {
+    height:250px;
 }
 
 .services,
@@ -129,13 +142,21 @@ $mobile-breakpoint: 768px;
     width:85%;
     padding-left:7.5%;
     padding-right:7.5%;
-    @media all and (max-width: $tablet-breakpoint) {
-        height:1200px;
-    }
     &__h2 {
         padding-top:70px;
     }
 }
+
+.services,
+.realisations,
+.competences,
+.formation {
+    @media all and (max-width: $tablet-breakpoint) {
+        height:1300px;
+    }
+}
+
+
 
 .services-container {
     margin-top:120px;
@@ -151,10 +172,12 @@ $mobile-breakpoint: 768px;
     @media all and (max-width: $tablet-breakpoint) {
         width:55%;   
     }
-    @media all and (max-width: $tablet-breakpoint) {
+    @media all and (max-width: $mobile-breakpoint) {
         width:85%;
+        height:450px;
         margin-left:7.5%;
         margin-right:7.5%;
+        padding:0;   
     }
     &__logo {
         width:37%;
@@ -274,6 +297,7 @@ $mobile-breakpoint: 768px;
     width:70%;
     padding:15px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display:none;
 }
 
 .languages {
@@ -306,6 +330,10 @@ $mobile-breakpoint: 768px;
 
 .footer-form {
     width:600px;
+    @media (max-width: $mobile-breakpoint) {
+        width:100%;
+    }
+    
 }
 
 #name,

@@ -194,3 +194,37 @@ select {
 .input-submit:hover {
     cursor:pointer;
 }
+
+input::placeholder,
+textarea::placeholder {
+    color:black;
+}
+
+/********************************************************************/
+
+.menu-icon {
+    display:none;
+    @media (max-width: 768px) {
+        display:flex;
+        flex-direction:column;
+        margin-right:30px;
+    }
+}
+
+.header-link {
+    margin-left:30px;
+}
+
+.hide-on-mobile {
+    @media (max-width: 768px) {
+        display:none;
+    }
+}
+
+.bar {
+    background-color:$second-color;
+    width:35px;
+    height:5px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
