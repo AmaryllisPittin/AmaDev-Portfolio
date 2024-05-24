@@ -6,11 +6,13 @@ import dataTab from "./data.json";
 import PageRealisation from "./pages/PageRealisation";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
+import BurgerMenu from "./components/BurgerMenu";
 
 const App = () => {
   return (
     <Router>
       <Topbar />
+      <BurgerMenu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/realisation/:id" element={<PageRealisation data={dataTab} />} />

@@ -1,5 +1,5 @@
 import React from "react";
-import OrdiImg from "../img/logo2.png";
+import OrdiImg from "../img/logo350.webp";
 import GitHubLogo from "../img/logoGit.png";
 import { HashLink as Link } from 'react-router-hash-link';
 

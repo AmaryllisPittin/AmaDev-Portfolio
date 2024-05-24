@@ -35,9 +35,9 @@ $mobile-breakpoint: 768px;
 
 .banner-title {
     padding-top:15%;
-    /*@media all and (max-width: $mobile-breakpoint) {
-        padding-top:40%;
-    }*/
+    @media all and (max-width: $mobile-breakpoint) {
+        padding-top:25%;
+    }
     &__h1 {
         padding-right:3%;
     }
@@ -102,7 +102,7 @@ $mobile-breakpoint: 768px;
 .realisations,
 .competences,
 .formation {
-    height:900px;
+    height:1000px;
     width:100%;
     @media all and (max-width: $mobile-breakpoint) {
         height:1400px;
@@ -187,7 +187,6 @@ $mobile-breakpoint: 768px;
         margin: 15px 15px 20px 15px;
     }
     &__p {
-        /*margin: 15px 15px 20px 15px;*/
         width:90%;
     }
 }
@@ -367,4 +366,78 @@ $mobile-breakpoint: 768px;
 
 .footer__h2 {
     margin-bottom:50px;
+}
+
+.cv-container {
+    width:25%;
+    @media all and (max-width: $mobile-breakpoint) {
+        width: 65%;
+        margin-top: 50px;
+    }
+}
+
+.cv {
+    width:95%;
+}
+
+.formations__h3 {
+    padding-bottom:20px;
+}
+
+.formation-li {
+    padding-bottom:10px;
+}
+
+.formations-list {
+    margin-bottom:40px;
+}
+
+.formations-list ul,
+.autres-formations ul {
+    padding-left:0;
+}
+
+.download-link {
+    margin-top:15px;
+}
+
+.menu-icon {
+    @media (max-width: 768px) {
+        margin-right:30px;
+        width: 35px;
+        right: 0;
+        top: 15px;
+        left: 90%;
+    }
+}
+
+.header-link {
+    margin-left:30px;
+}
+
+.bar {
+    width:35px;
+    height:5px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+
+.dropdown-menu__container {
+    width: 43%;
+    height: 55%;
+    right: 0;
+    top: 59px;
+}
+
+.container-link {
+    height:15%;
+    margin-right: 10%;
+}
+
+.first-burger-link {
+    margin-top:10%;
+}
+
+.dropdown-link {
+    font-size:20px;
 }

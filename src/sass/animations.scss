@@ -20,12 +20,15 @@ $second-color: rgb(243,191,255);
 
 /*******************/
 
-.topbar-link {
+.topbar-link,
+.download-link {
     position: relative;
     display: inline-block;
   }
   
-  .topbar-link:before, .topbar-link:after {
+  .topbar-link:before, .topbar-link:after,
+  .dropdown-link:before, .dropdown-link:after,
+  .download-link:before, .download-link:after {
     content: '';
     border-bottom: solid 1px $second-color;
     position: absolute;
@@ -37,8 +40,13 @@ $second-color: rgb(243,191,255);
   
   .topbar-link:before { left: 0; }
   .topbar-link:after { right: 0; }
+  .dropdown-link:before { left: 0; }
+  .dropdown-link:after { right: 0; }
+  .download-link:before { left: 0; }
+  .download-link:after { right: 0; }
   
-  .topbar-link:hover:before, .topbar-link:hover:after {
+  .topbar-link:hover:before, .topbar-link:hover:after,
+  .dropdown-link:hover:before, .dropdown-link:hover:after,
+  .download-link:hover:before, .download-link:hover:after {
     width: 50%;
   }
-  

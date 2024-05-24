@@ -41,8 +41,13 @@ $center-value: center;
 .competences,
 .logo-container,
 .formation,
+.formations,
+.formations-list,
+.autres-formations,
+.cv-container,
 .footer,
-.footer-form {
+.footer-form,
+.dropdown-menu__container {
     @include flex-and-column;
 }
 
@@ -50,10 +55,19 @@ $center-value: center;
     @include flex-and-column;
 }
 
-.topbar-container {
+.topbar-container,
+.formations-container {
     @include flex-and-row;
     @media all and (max-width: $mobile-breakpoint) {
         @include flex-and-column;   
+    }
+}
+
+.menu-icon {
+    @media all and (max-width: $mobile-breakpoint) {
+        @include flex-and-column;   
+        position:relative;
+        z-index:1001;
     }
 }
 
@@ -79,7 +93,8 @@ $center-value: center;
     }
 }
 
-.logo-container {
+.logo-container,
+.formations-container {
     justify-content: space-around;
 }
 
@@ -97,9 +112,19 @@ $center-value: center;
 .competences,
 .logo-container,
 .formation,
+.formations-container,
+.cv-container,
 .footer,
-.footer-form {
+.footer-form,
+.dropdown-menu__container {
     align-items: $center-value;
+}
+
+.formations,
+.autres-formations {
+    @media all and (max-width: $mobile-breakpoint) {
+        align-items: $center-value;
+    }
 }
 
 .banner-title,
@@ -149,11 +174,16 @@ $center-value: center;
     align-items:flex-end;
     background-size: cover;
     background-position:$center-value;
-    position:relative;
 }
 
-.card::before {
+.card::before,
+.dropdown-menu__container {
     position:absolute;
+}
+
+.dropdown-link,
+.card {
+    position:relative;
 }
 
 .card,
@@ -163,4 +193,14 @@ $center-value: center;
 
 .card::before {
     z-index: 1;
+}
+
+.dropdown-menu__container {
+    z-index:1001;
+}
+
+.hide-on-mobile {
+    @media (max-width: 768px) {
+        display:none;
+    }
 }
