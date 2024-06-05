@@ -8,12 +8,14 @@ $second-color: rgb(243,191,255);
 }
 
 .github-btn,
-.contact-btn {
+.contact-btn,
+.realisation-link {
     transition: background-color 0.2s ease;
 }
 
 .github-btn:hover,
-.contact-btn:hover {
+.contact-btn:hover,
+.realisation-link:hover {
     background-color: $second-color !important;
 }
 

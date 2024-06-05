@@ -7,16 +7,17 @@ import PageRealisation from "./pages/PageRealisation";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 import BurgerMenu from "./components/BurgerMenu";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Topbar />
       <BurgerMenu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/realisation/:id" element={<PageRealisation data={dataTab} />} />
-
         <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<Navigate replace to="/404" />} />
       </Routes>
@@ -26,3 +27,4 @@ const App = () => {
 };
 
 export default App;
+

@@ -24,12 +24,14 @@ $center-value: center;
 .banner-welcome__buttons,
 .github-btn,
 .contact-btn,
+.realisation-link,
 .description-start-left,
 .description-start-right,
 .realisation-tags,
 .language__container,
 .outils__container,
-.footer-form__input-select {
+.footer-form__input-select,
+.card-container {
     @include flex-and-row;
 }
 
@@ -102,6 +104,7 @@ $center-value: center;
 .banner-welcome,
 .github-btn,
 .contact-btn,
+.realisation-link,
 .about,
 .services,
 .service-card,
@@ -130,6 +133,7 @@ $center-value: center;
 .banner-title,
 .github-btn,
 .contact-btn,
+.realisation-link,
 .about,
 .description-start-left,
 .description-start-right,
@@ -154,15 +158,6 @@ $center-value: center;
 
 .services-container {
     justify-content: space-around;
-}
-
-.card-container {
-    display:grid;
-    grid-template-rows:repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    @media (max-width: $tablet-breakpoint) {
-        @include flex-and-column;
-    }
 }
 
 .card-container a {
@@ -197,6 +192,10 @@ $center-value: center;
 
 .dropdown-menu__container {
     z-index:1001;
+}
+
+.language__container {
+    flex-wrap:wrap;
 }
 
 .hide-on-mobile {

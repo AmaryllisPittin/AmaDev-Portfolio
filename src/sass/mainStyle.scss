@@ -38,7 +38,8 @@ select,
 }
 
 .github-btn,
-.contact-btn {
+.contact-btn,
+.realisation-link {
     color: $main-color;
 }
 
@@ -118,6 +119,7 @@ h3 {
 .topbar-link,
 .github-btn,
 .contact-btn,
+.realisation-link,
 .card-link,
 .dropdown-link,
 .download-link a {
@@ -125,7 +127,8 @@ h3 {
 }
 
 .github-btn,
-.contact-btn {
+.contact-btn,
+.realisation-link {
     font-size:18px;
     font-weight:600;
     @media all and (max-width: $mobile-breakpoint) {
@@ -140,8 +143,7 @@ h3 {
 }
 
 .about__p,
-.description-start-left,
-.description-start-right {
+.description-p {
     text-align: justify;
 }
 
@@ -179,7 +181,8 @@ h3 {
     }
 
 .github-btn,
-.contact-btn {
+.contact-btn,
+.realisation-link {
     background: transparent;
     border: solid 2px rgb(17, 17, 17);
     transition: color 0.3s, background-color 0.3s;

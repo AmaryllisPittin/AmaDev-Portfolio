@@ -80,7 +80,8 @@ $mobile-breakpoint: 768px;
 }
 
 .github-btn,
-.contact-btn {
+.contact-btn,
+.realisation-link {
     border-radius:5px;
     width:170px;
     height:40px;
@@ -93,15 +94,13 @@ $mobile-breakpoint: 768px;
     }
 }
 
-.contact-btn {
+.contact-btn,
+.realisation-link {
     height:42px;
 }
 
 .about,
-.services,
-.realisations,
-.competences,
-.formation {
+.competences {
     height:1000px;
     width:100%;
     @media all and (max-width: $mobile-breakpoint) {
@@ -147,6 +146,10 @@ $mobile-breakpoint: 768px;
     }
 }
 
+.footer {
+    padding-top:100px;
+}
+
 .services,
 .realisations,
 .competences,
@@ -168,6 +171,7 @@ $mobile-breakpoint: 768px;
     height:370px;
     border-radius: 15px;
     padding:15px;
+    margin-bottom:50px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     @media all and (max-width: $tablet-breakpoint) {
         width:55%;   
@@ -219,6 +223,7 @@ $mobile-breakpoint: 768px;
 
 .card {
     height: 340px;
+    width:300px;
     border-radius:10px;
     &::before {
         content: "";
@@ -240,9 +245,12 @@ $mobile-breakpoint: 768px;
 
 .realisation-container {
     width:90%;
-    height:1500px;
     padding-left:5%;
     padding-right:5%;
+}
+
+.description-p.last-p {
+    margin-bottom:100px;
 }
 
 .realisation-title {
@@ -280,15 +288,8 @@ $mobile-breakpoint: 768px;
 }
 
 .description-p {
-    width:40%;
-}
-
-.p-left {
-    margin-right:35px;
-}
-
-.p-right {
-    margin-left:35px;
+    width:60%;
+    margin-bottom:30px;
 }
 
 .languages,
@@ -296,7 +297,7 @@ $mobile-breakpoint: 768px;
     width:70%;
     padding:15px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    display:none;
+    /*display:none;*/
 }
 
 .languages {
@@ -440,4 +441,8 @@ $mobile-breakpoint: 768px;
 
 .dropdown-link {
     font-size:20px;
+}
+
+.realisation-link {
+    margin-bottom:50px;
 }
