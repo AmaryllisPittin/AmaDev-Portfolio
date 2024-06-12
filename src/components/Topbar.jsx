@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from 'react-router-hash-link';
+import BurgerMenu from "./BurgerMenu";
 
 const Topbar = () => {
   return (
@@ -27,6 +28,8 @@ const Topbar = () => {
           <Link className="topbar-link" smooth to="/#contact">Contact</Link>
         </li>
       </ul>
+
+      <BurgerMenu />
     </div>
   );
 };

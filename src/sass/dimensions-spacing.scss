@@ -151,7 +151,6 @@ $mobile-breakpoint: 768px;
 }
 
 .services,
-.realisations,
 .competences,
 .formation {
     @media all and (max-width: $tablet-breakpoint) {
@@ -218,6 +217,7 @@ $mobile-breakpoint: 768px;
     border-radius:10px;
     @media (max-width: $tablet-breakpoint) {
         height:260px;
+        margin-bottom: 20px;
     }
 }
 
@@ -225,6 +225,12 @@ $mobile-breakpoint: 768px;
     height: 340px;
     width:300px;
     border-radius:10px;
+    @media (max-width: $tablet-breakpoint) {
+        width:200px;
+    }
+    @media (max-width: $tablet-breakpoint) {
+        width:300px;
+    }
     &::before {
         content: "";
         top: 0;
@@ -424,10 +430,10 @@ $mobile-breakpoint: 768px;
 }
 
 .dropdown-menu__container {
-    width: 43%;
-    height: 55%;
-    right: 0;
-    top: 59px;
+    width: 300px;
+    height: 300px;
+    right: -30px;
+    top: 56px;
 }
 
 .container-link {

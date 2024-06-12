@@ -35,6 +35,12 @@ $center-value: center;
     @include flex-and-row;
 }
 
+.card-container {
+    @media all and (max-width: $mobile-breakpoint) {
+        @include flex-and-column;   
+    }
+}
+
 .banner-welcome,
 .about,
 .services,
@@ -201,5 +207,12 @@ $center-value: center;
 .hide-on-mobile {
     @media (max-width: 768px) {
         display:none;
+    }
+}
+
+.burger-menu {
+    display:none;
+    @media (max-width: 768px) {
+        display:block;
     }
 }

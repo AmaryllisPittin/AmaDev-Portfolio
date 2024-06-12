@@ -9,7 +9,7 @@ const BurgerMenu = () => {
   };
 
   return (
-    <div>
+    <div className="burger-menu" style={{position:'absolute', top: '0', right: '48px'}}>
       <ul>
         <li className="menu-icon" onClick={toggleMenu}>
           <div className="bar"></div>
