@@ -27,10 +27,6 @@ $mobile-breakpoint: 768px;
 
 .banner {
     width:100%;
-    height:911px;
-    @media all and (max-width: $tablet-breakpoint) {
-        height:600px;
-    }
 }
 
 .banner-title {
@@ -51,8 +47,8 @@ $mobile-breakpoint: 768px;
             height:200px;
         }
         @media all and (max-width: $mobile-breakpoint) {
-            width:100px;
-            height:100px;
+            width:70px;
+            height:70px;
         }
     }
 }
@@ -61,7 +57,16 @@ $mobile-breakpoint: 768px;
     margin-top:5%;
     &__buttons {
         margin-top:25px;
+        margin-bottom:300px;
+        @media all and (max-width: $mobile-breakpoint) {
+           margin-bottom: 150px;
+        }
     }
+    &__h2 {
+        @media all and (max-width: $mobile-breakpoint) {
+        font-size:18px;
+    }
+}
 }
 
 .github-btn {
@@ -99,9 +104,7 @@ $mobile-breakpoint: 768px;
     height:42px;
 }
 
-.about,
-.competences {
-    height:1000px;
+.about {
     width:100%;
     @media all and (max-width: $mobile-breakpoint) {
         height:1400px;
@@ -150,9 +153,7 @@ $mobile-breakpoint: 768px;
     padding-top:100px;
 }
 
-.services,
-.competences,
-.formation {
+.services {
     @media all and (max-width: $tablet-breakpoint) {
         height:1300px;
     }
@@ -226,10 +227,10 @@ $mobile-breakpoint: 768px;
     width:300px;
     border-radius:10px;
     @media (max-width: $tablet-breakpoint) {
-        width:200px;
-    }
-    @media (max-width: $tablet-breakpoint) {
         width:300px;
+    }
+    @media (max-width: $mobile-breakpoint) {
+        width:200px;
     }
     &::before {
         content: "";
@@ -277,10 +278,14 @@ $mobile-breakpoint: 768px;
     border-radius:10px;
     margin-bottom:24px;
     @media (max-width: $tablet-breakpoint) {
-        height:15px;
-        padding-bottom:3px;
+        padding-bottom:7px;
         margin-bottom: 0;
         border-radius:5px;
+    }
+    @media (max-width: $mobile-breakpoint) {
+        height: 20px;
+        padding-bottom: 3px;
+        margin-bottom: 20px;
     }
 }
 
@@ -315,6 +320,7 @@ $mobile-breakpoint: 768px;
 
 .outils {
     margin-top:80px;
+    margin-bottom:80px;
     &__h3 {
         margin-bottom:30px;
     }
@@ -322,6 +328,11 @@ $mobile-breakpoint: 768px;
 
 .logo-container {
     padding-right:40px;
+    @media (max-width: $tablet-breakpoint) {
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    }
     &__name {
         padding-top:10px;
         padding-bottom:0;
@@ -405,7 +416,7 @@ $mobile-breakpoint: 768px;
 }
 
 .download-link {
-    margin-top:15px;
+    margin-top:30px;
 }
 
 .menu-icon {

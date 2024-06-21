@@ -35,7 +35,8 @@ $center-value: center;
     @include flex-and-row;
 }
 
-.card-container {
+.card-container,
+.realisation-tags {
     @media all and (max-width: $mobile-breakpoint) {
         @include flex-and-column;   
     }
@@ -144,8 +145,16 @@ $center-value: center;
 .description-start-left,
 .description-start-right,
 .footer,
-.footer-form {
+.footer-form,
+.tag {
     justify-content: $center-value;
+}
+
+.language__container,
+.outils__container {
+    @media all and (max-width: $tablet-breakpoint) {
+        justify-content: $center-value;
+    }
 }
 
 .about__contact-me {
@@ -200,7 +209,8 @@ $center-value: center;
     z-index:1001;
 }
 
-.language__container {
+.language__container,
+.outils__container {
     flex-wrap:wrap;
 }
 
@@ -215,4 +225,8 @@ $center-value: center;
     @media (max-width: 768px) {
         display:block;
     }
+}
+
+.tag {
+    display: flex;
 }

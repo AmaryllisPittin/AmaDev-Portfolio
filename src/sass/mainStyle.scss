@@ -59,7 +59,11 @@ select,
 }
 
 .realisation-title {
-    font-size:90px;
+    font-size:80px;
+    text-align: center;
+    @media all and (max-width: $mobile-breakpoint) {
+        font-size:40px;
+    }
 }
 
 /***********************FONT STYLES*******************************/
