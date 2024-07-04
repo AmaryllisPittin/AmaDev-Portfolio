@@ -2,6 +2,7 @@
     {
         "id": "598a5d8a-e2ae-4acf-801f-82a497a9cf0d",
         "title": "Kasa - site de logements",
+        "url": "https://github.com/AmaryllisPittin/Kasa.git",
         "cover": "https://dl.dropboxusercontent.com/scl/fi/qyjv22fyrwhr4m11nqfr9/M_Fiche-Logement.webp?rlkey=t8acqk57ev07cnous7q71oasc&st=uqdqx04a&dl=0",
         "description1": "J'ai réalisé le site web de Kasa dans le cadre de ma formation OpenClassRooms, afin de comprendre le fonctionnement de React et React Router pour créer une expérience utilisateur moderne et réactive. Il s'agit d'une application de location immobilière, présentant les 20 dernières annonces de logements ainsi qu'une page 'A propos' pour renseigner les visiteurs sur le fonctionnement de l'organisme. J'ai réalisé la refonte totale du site à partir de React, React Router, Sass pour les animations et le style, ainsi que Json pour les données en Back-end.",
         "description2": "J'ai suivi pour le design les maquettes Figma fournies, autant pour le format desktop que mobile. L'entièreté du site est abordable sur tous les formats d'écrans, en sachant que de plus en plus d'utilisateurs visitent des sites web depuis leur portable. D'autre part, pour le contenu de ce projet, l'utilisateur de React Router a été indispensable pour l'accès vers chaque logement présenté sur la page.",
