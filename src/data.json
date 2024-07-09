@@ -25,5 +25,18 @@
             "Projet OpenClassRooms",
             "Sass"
         ]
+    },
+    {
+        "id": "e0ff9af8-606e-4b41-a4fb-1b9b3cedcadb",
+        "title": "Luminescence - site commercial - casques audio",
+        "url": "https://luminescence-com.vercel.app/",
+        "cover": "https://dl.dropboxusercontent.com/scl/fi/z24p17ka6ellvf8pzxhiw/8-New-Super-Mario-Bros-2-World-6-Map-Theme-YouTube-Mozilla-Firefox-20_06_2024-16_52_47.png?rlkey=f29yc8mf9z0k1my3syvnwojkx&st=muffs7vm&dl=0",
+        "description1": "Ceci est un petit projet, un simple projet qu'il m'a plu de développer avec simplicité pour présenter un exemple de petit site de e-commerce. Le but étant ici de montrer un exemple simple de ce qui pourrait être un site vitrine pour une marque. Bien sûr, toute information de ce site est factice, pour l'exemple.",
+        "description2": "Il s'agit d'une présentation de Luminescence, une marque de casques audio. Ce projet a été bâtit avec grande simplicité, et donc sur des bases html et scss. Etant donné le peu de contenu, et le petit nombre de pages, j'ai simplement gardé cette structure avec simplement un seul fichier JavaScript pour gérer l'envoi des messages.",
+        "description3": "Scss là aussi, m'a paru être une bonne option afin d 'avoir des fichiers de style organisées et propres. Chaque image du site a été créée grâce à une IA, Midjourney.",
+        "tags": [
+            "Projet Personnel",
+            "Sass"
+        ]
     }
 ]
