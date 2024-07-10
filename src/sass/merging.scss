@@ -133,7 +133,8 @@ $center-value: center;
 }
 
 .formations,
-.autres-formations {
+.autres-formations,
+.card-container {
     @media all and (max-width: $mobile-breakpoint) {
         align-items: $center-value;
     }
