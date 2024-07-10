@@ -198,6 +198,7 @@ $mobile-breakpoint: 768px;
     border-radius:25px;
     column-gap: 5%;
     row-gap: 50px;
+    width:100%;
     @media (max-width: $tablet-breakpoint) {
         margin-top:0;
         padding-top: 30px;
@@ -458,4 +459,9 @@ $mobile-breakpoint: 768px;
 
 .realisation-link {
     margin-bottom:50px;
+}
+
+
+.body-error {
+    height: 100vh;
 }

@@ -26,7 +26,8 @@ $second-color: rgb(243,191,255);
 input,
 textarea,
 select,
-.bar {
+.bar,
+.body-error {
     background-color: $second-color;
 }
 

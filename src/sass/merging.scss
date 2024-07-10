@@ -56,7 +56,8 @@ $center-value: center;
 .cv-container,
 .footer,
 .footer-form,
-.dropdown-menu__container {
+.dropdown-menu__container,
+.body-error {
     @include flex-and-column;
 }
 
@@ -126,7 +127,8 @@ $center-value: center;
 .cv-container,
 .footer,
 .footer-form,
-.dropdown-menu__container {
+.dropdown-menu__container,
+.body-error {
     align-items: $center-value;
 }
 
@@ -146,7 +148,9 @@ $center-value: center;
 .description-start-right,
 .footer,
 .footer-form,
-.tag {
+.tag,
+.card-container,
+.body-error {
     justify-content: $center-value;
 }
 
@@ -210,7 +214,8 @@ $center-value: center;
 }
 
 .language__container,
-.outils__container {
+.outils__container,
+.card-container {
     flex-wrap:wrap;
 }
 
