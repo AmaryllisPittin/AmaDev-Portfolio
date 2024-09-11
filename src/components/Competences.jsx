@@ -8,6 +8,8 @@ import reactLogo from '../img/react.svg';
 import reduxLogo from '../img/redux.svg';
 import githubLogo from '../img/github.png';
 import vscodeLogo from '../img/vscode.png';
+import javaLogo from '../img/java.png';
+import eclipseLogo from '../img/eclipse.webp';
 
 const Competences = () => {
     return ( 
@@ -44,6 +46,10 @@ const Competences = () => {
                         <img className="logo-container__img" src={reduxLogo} alt="Logo Redux" />
                         <h4 className="logo-container__name">Redux</h4>
                     </span>
+                    <span className="logo-container">
+                        <img className="logo-container__img" src={javaLogo} alt="Logo Java" />
+                        <h4 className="logo-container__name">Java</h4>
+                    </span>
                 </span>
             </div>
             <div className="outils">
@@ -56,6 +62,10 @@ const Competences = () => {
                     <span className="logo-container">
                         <img className="logo-container__img" src={vscodeLogo} alt="Logo VScode" />
                         <h4 className="logo-container__name">Visual Studio Code</h4>
+                    </span>
+                    <span className="logo-container">
+                        <img className="logo-container__img" src={eclipseLogo} alt="Logo Eclipse" />
+                        <h4 className="logo-container__name">Eclipse</h4>
                     </span>
                 </span>
             </div>

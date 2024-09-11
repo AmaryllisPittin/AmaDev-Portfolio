@@ -33,7 +33,7 @@ const BurgerMenu = () => {
               <Link className="dropdown-link" smooth to="/#competences">Compétences</Link>
             </li>
             <li className="container-link">
-              <Link className="dropdown-link" smooth to="/#formation">Formations et CV</Link>
+              <Link className="dropdown-link" smooth to="/#formation">Formations</Link>
             </li>
             <li className="container-link">
               <Link className="dropdown-link" smooth to="/#contact">Contact</Link>

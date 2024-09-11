@@ -22,7 +22,7 @@ const Topbar = () => {
           <Link className="topbar-link" smooth to="/#competences">Compétences</Link>
         </li>
         <li className="hide-on-mobile">
-          <Link className="topbar-link" smooth to="/#formation">Formations et CV</Link>
+          <Link className="topbar-link" smooth to="/#formation">Formations</Link>
         </li>
         <li className="hide-on-mobile">
           <Link className="topbar-link" smooth to="/#contact">Contact</Link>
