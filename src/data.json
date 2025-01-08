@@ -38,5 +38,19 @@
             "Projet Personnel",
             "Sass"
         ]
+    },
+    {
+        "id": "66635c1e-e407-4fe5-9911-744c7bbd1978",
+        "title": "TheraForma.fr - site d'un organisme - formations en psychologie",
+        "url": "https://thera-forma-fr.vercel.app",
+        "cover": "https://dl.dropboxusercontent.com/scl/fi/z24p17ka6ellvf8pzxhiw/8-New-Super-Mario-Bros-2-World-6-Map-Theme-YouTube-Mozilla-Firefox-20_06_2024-16_52_47.png?rlkey=f29yc8mf9z0k1my3syvnwojkx&st=muffs7vm&dl=0",
+        "description1": "Au départ, c eprojet était destiné à un organisme existant réellement. Mais lorsqu'il s'est avéré que des développeurs étaient déjà sur le projet, j'ai décidé de refaire une refonte de ce site pour un pseudo-organisme en psychologie: TheraForma.",
+        "description2": "Ce site présente un organisme proposant des formations dans plusieurs centres, en France et à l'international, sur le thème de la psychologie. Des thérapies de groupe sont également proposées, et des livres y sont mis en vente. Le but est de présenter, mais aussi de rendre accessible des inscriptions pour les formations, quelles soient en ligne ou en présentiel.",
+        "description3": "Le site en React montre une organisation un peu plus complexe qu'un simple site vitrine, et Scss est utilisé pour le style. Chaque image du site a été créée grâce à une IA, Midjourney.",
+        "tags": [
+            "Projet Personnel en cours",
+            "Sass",
+            "React"
+        ]
     }
 ]
