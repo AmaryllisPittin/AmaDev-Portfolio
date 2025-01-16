@@ -52,5 +52,18 @@
             "Sass",
             "React"
         ]
+    },
+    {
+        "id": "0fad66ad-d370-4863-b37f-fa2313b377ba",
+        "title": "AmaAIGallery - Application de galerie photo",
+        "url": "https://github.com/AmaryllisPittin/AmaAIGallery.git",
+        "cover": "https://dl.dropboxusercontent.com/scl/fi/zn167nc57g50tvot8tb98/logo.webp?rlkey=ixaem5i99v1x44efww4r7cft8&st=b5hbbq3g&dl=0",
+        "description1": "Cette application Java est la première que j'ai réalisé, en tant que débutante. Il s'agit d'une petite galerie photo, avec possibilité de cliquer sur une photo et de l'agrandir.",
+        "description2": "L'application est très simple, le but étant de simplement commencer à coder du Java. Des modifications seront surement apportées dans le futur.",
+        "tags": [
+            "Projet Personnel en cours",
+            "Java",
+            "Application Bureau"
+        ]
     }
 ]
